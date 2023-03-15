@@ -1,5 +1,5 @@
-// const { Movie } = require('./models');
-// Movie.sync({ alter: true });
+const { Admin } = require('./models');
+Admin.sync({ alter: true });
 
 require('dotenv').config();
 const fs = require('fs');
